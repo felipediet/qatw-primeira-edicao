@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "bullmq": "^5.41.2",
+    "pg-promise": "^11.10.2",
     "playwright": "^1.50.1"
   },
   "name": "qatw-primeira-edicao",
