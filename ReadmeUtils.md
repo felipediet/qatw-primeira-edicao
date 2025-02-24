@@ -1,3 +1,9 @@
+# Como subir o ambiente
+
+cd /c/projetos/qatw-primeira-edica
+docker compose down
+
+
 # Infos importantes
 
   ```sh
