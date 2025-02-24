@@ -23,6 +23,7 @@ pipeline {
             steps {
                 echo 'Executando os testes E2E'
                 sh 'npx playwright test'
+                allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
             }
         }
     }
