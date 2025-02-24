@@ -22,7 +22,7 @@ pipeline {
         stage('Testes E2E') {
             steps {
                 echo 'Executando os testes E2E'
-                sh 'npx playwrigth test'
+                sh 'npx playwright test'
             }
         }
     }
