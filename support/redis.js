@@ -23,5 +23,5 @@ export const cleanJobs = async () => {
 
 
 export const cleanCompletedJobs = async () => {
-    await queue.obliterate({force:true}); //Limpa todos os Jobs forçando a limpeza
+    await queue.obliterate({ force:true }); //Limpa todos os Jobs forçando a limpeza
 }
